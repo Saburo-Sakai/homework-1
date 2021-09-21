@@ -19,16 +19,24 @@
 <html lang="ru">
   <head>
     <title>Эффективное решение для вашего бизнеса</title>
+ 
+    <---Подключаем шрифт Roboto и Raleway--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/css/modern-normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
+   
+
   </head>
   <body>
     <header>
       <!---Шапка сайта-->
       <div>
         <nav>
-          <a href="/index.html">Web<span>Studio</span></a>
-          <ul>
+          <a href="/index.html" class="logo">Web<span class="logo-part-2">Studio</span></a>
+          <ul class="nav">
             <li>
               <a href="/index.html">Студия</a>
             </li>
@@ -42,8 +50,10 @@
         </nav> 
 
         <address>
-          <a>info@devstudio.com</a>
-          <a>+38 096 111 11 11</a>
+          <ul>
+            <li><a>info@devstudio.com</a></li>
+            <li><a>+38 096 111 11 11</a></li>
+          </ul>             
         </address>
     </div>
     </header>
