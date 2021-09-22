@@ -54,19 +54,26 @@ a[title] {
     --brand-color: #2196F3;
     --title-color: #212121;
     --general-text-color: #757575;
-    --contacts-footer: #FFFFFF 60%;
-    --adress-footer: #FFFFFF;
+    --contacts-footer: #FFFFFF99;
+    --address-footer: #FFFFFF;
     --main-title-action: #FFFFFF;
+    --background-title: #2F303A;
+    --portfolio-background-button: #F5F4FA;
 }
 
+.uppercase {
+    font-style: uppercase;
+}
 
-/* 1. Это стили для шапки навигации*/
+/* 1. Это стили для шапки навигации Index/Portfolio*/
 
 .logo {
     color: var(--brand-color);
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
     font-size: 26px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .logo-part-2 {
@@ -76,10 +83,149 @@ a[title] {
 .nav a {
     color: var(--title-color);
     font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-size: 14px;
     font-weight: 500;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: var(--brand-color);
+    cursor: pointer;
+}
+
+.contacts {
+    color: var(--general-text-color);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contacts:hover {
+    color: var(--brand-color);
+    cursor: pointer;
 }
 
 
-/* 2. Это стили в оснвном для основной части*/
+/* 2. Это стили для основной части Index/Portfolio*/
 
+.main-title-background {
+    background-color: var(--background-title);
+}
+
+.main-title {
+    color: var(--main-title-action);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.button-action {
+color: var(--brand-color);
+}
+
+.button-text {
+    color: var(--main-title-action);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--brand-color);
+    border: none;
+    cursor: pointer;
+}
+
+.mini-title-h2 {
+    color: var(--title-color);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.traits-text {
+    color: var(--general-text-color);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.key-positions-title {
+    color: var(--title-color);
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.team-title {
+    color: var(--title-color);
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team-text { 
+    color: var(--general-text-color);
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+/* 3. Стили для футера Index/Portfolio*/
+
+.background-footer {
+    background-color: var(--background-title);
+}
+
+.footer-logo-part-2 {
+    color: var (--title-color);
+    text-decoration: none;
+}
+
+.address {
+    color: var(--address-footer);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-cotacts {
+    color: var(--contacts-footer);
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/*Стили для основной части Protfolio*/
+
+.portfolio-button button {
+    color: var(--title-color);
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--portfolio-background-button);
+}
+
+.portfolio-button button:hover {
+    color: var(--main-title-action);
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--brand-color);
+}

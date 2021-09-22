@@ -20,7 +20,7 @@
   <head>
     <title>Эффективное решение для вашего бизнеса</title>
  
-    <---Подключаем шрифт Roboto и Raleway--->
+    <!-----Подключаем шрифт Roboto и Raleway--->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -51,15 +51,19 @@
 
         <address>
           <ul>
-            <li><a>info@devstudio.com</a></li>
-            <li><a>+38 096 111 11 11</a></li>
+            <li>
+              <a  class="contacts">info@devstudio.com</a>
+            </li>
+            <li>
+              <a  class="contacts">+38 096 111 11 11</a>
+            </li>
           </ul>             
         </address>
     </div>
     </header>
-    <section> <!--Секция целевое действие-->
-      <H1>Эффективные решения для вашего бизнеса</H1>
-      <button>Заказать услугу</button>
+    <section class="main-title-background"> <!--Секция целевое действие-->
+      <H1 class="main-title uppercase">Эффективные решения для вашего бизнеса</H1>
+      <button class="button-text">Заказать услугу</button>
     </section>
 
 
@@ -72,32 +76,32 @@
               <div>
                 <!----Сюда вставим спрайт-->
               </div>
-              <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-              <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+              <h3 class="mini-title-h2">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+              <p class="traits-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
 
             <li>
               <div>
               <!----Сюда вставим спрайт-->                
               </div>
-              <h3>ПУНКТУАЛЬНОСТЬ</h3>
-              <P>Равным образом консультацияс широким активом в значителньой степени обуславливает</P>
+              <h3 class="mini-title-h2">ПУНКТУАЛЬНОСТЬ</h3>
+              <P class="traits-text">Равным образом консультацияс широким активом в значителньой степени обуславливает</P>
             </li>
 
             <li>
               <div>
               <!----Сюда вставим спрайт-->               
               </div>
-              <h3>ПЛАНИРОВАНИЕ</h3>
-              <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+              <h3 class="mini-title-h2">ПЛАНИРОВАНИЕ</h3>
+              <p class="traits-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
 
             <li>
               <div>
               <!----Сюда вставим спрайт-->                
               </div>
-              <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+              <h3 class="mini-title-h2">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+              <p class="traits-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
       </div> 
@@ -106,7 +110,7 @@
 
 <!----Секция текстом и картинками на бэке-->
     <section> 
-      <h2>Чем мы занимаемся</h2>
+      <h2 class="key-positions-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img src="/images/What_we_do_1.jpg" alt="Десктопные Приложения">
@@ -124,8 +128,8 @@
     <section> 
 
       <div>
-        <h2>Наша команда</h2>
-          <ul>
+        <h2 class="key-positions-title">Наша команда</h2>
+        <ul>
             <li>
               <div>
                 <img src="/images/Igor.jpg" alt="Мужчина в очках, он приветлив">
@@ -163,7 +167,7 @@
                 <p>UI Designer</p>
               </div>
             </li>
-          </ul>
+        </ul>
       </div>
 
     </section>
@@ -186,15 +190,15 @@
 
   </body>
 
-  <footer>
+  <footer class="background-footer">
     <div>
       <div>
-        <a href="">WebStudio</a>
+        <a href="/index.html" class="logo">Web<span class="footer-logo-part-2">Studio</span></a>
         <address>
           <ul>
-            <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="">info@example.com</a></li>
-            <li><a href="">+38 099 111 11 11</a></li>
+            <li><a href="" class="address">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li><a href="" class="footer-cotacts"> info@example.com </a></li>
+            <li><a href="" class="footer-cotacts"> +38 099 111 11 11</a></li>
           </ul>
         </address>
       </div>
